@@ -1,0 +1,59 @@
+.introducao {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.introducao__miniTexto {
+    color: var(--vinho-texto);
+    margin-top: 6rem; 
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.introducao__titulo {
+    margin-top: 1.5rem;
+    color: var(--preto-texto);
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.introducao__texto {
+    color: var(--cinza-texto);
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 1.5rem;
+    padding: 0 25vw 0 25vw;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw 20vw;
+    text-align: start;
+    justify-content: center;
+}
+
+.info__item {
+    margin: 6rem 1rem;
+    list-style: none;
+}
+
+.info__numeros {
+    font-size: 3.75rem;
+    font-weight: 600;
+    color: var(--vinho-texto);
+}
+
+.info__titulo {
+    margin-top: 0.75rem;
+    font-size: 1.125rem;
+    color: var(--preto-texto);
+}
+
+.info__texto {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--cinza-texto);
+}
